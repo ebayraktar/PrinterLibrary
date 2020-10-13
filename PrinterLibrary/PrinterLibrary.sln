@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrinterLibrary", "PrinterLibrary\PrinterLibrary.csproj", "{AD155A5C-00D7-4FAB-843C-F76EBC02E204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD155A5C-00D7-4FAB-843C-F76EBC02E204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD155A5C-00D7-4FAB-843C-F76EBC02E204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD155A5C-00D7-4FAB-843C-F76EBC02E204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD155A5C-00D7-4FAB-843C-F76EBC02E204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBC96E0B-02A0-4ACB-B24A-538EEC117080}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.0.0.12:8899/tfs/mobilelibraries
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PrinterLibrary\\PrinterLibrary.csproj
+		SccProjectName1 = PrinterLibrary
+		SccLocalPath1 = PrinterLibrary
+	EndGlobalSection
+EndGlobal

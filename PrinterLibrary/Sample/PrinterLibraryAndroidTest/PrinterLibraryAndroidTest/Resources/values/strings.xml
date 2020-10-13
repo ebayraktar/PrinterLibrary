@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">PrinterLibraryAndroidTest</string>
+	<string name="action_settings">Settings</string>
+	<array name="printerTypes">
+		<item>TSPL</item>
+		<item>CPCL</item>
+	</array>
+</resources>

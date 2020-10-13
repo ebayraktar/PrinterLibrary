@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 0x0999 / 0x0011: FTDI FT232R UART -->
+	<usb-device vendor-id="2457" product-id="17" />
+</resources>
