@@ -8,7 +8,6 @@ namespace PrinterLibraryAndroidTest.BroadcastReceivers
 {
     [BroadcastReceiver(Enabled = true)]
     [IntentFilter(new[] { UsbManager.ActionUsbDeviceAttached, UsbManager.ActionUsbAccessoryAttached, UsbManager.ActionUsbDeviceDetached, UsbManager.ActionUsbAccessoryDetached })]
-    //[MetaData(UsbManager.ActionUsbDeviceAttached, Resource = "@xml/device_filter")]
     public class USBReceiver : BroadcastReceiver
     {
         public const string ACTION_USB_PERMISSION =
@@ -36,25 +35,4 @@ namespace PrinterLibraryAndroidTest.BroadcastReceivers
             }
         }
     }
-
-    //class BroadcastReceiverUsbState : BroadcastReceiver
-    //{
-    //    public BroadcastReceiverUsbState() { }
-
-    //    public override void OnReceive(Context context, Intent intent)
-    //    {
-    //        Android.Util.Log.Debug(GetType().ToString(), $"got state broadcast!");
-    //        if (context is MainActivity)
-    //        {
-    //            MainActivity mainActivity = (MainActivity)context;
-    //            mainActivity.usbIsDetached = true;
-    //            Toast.MakeText(context, $"We got state broadcast: {intent.ToString()}", ToastLength.Long).Show();
-    //        }
-    //        else
-    //        {
-    //            Toast.MakeText(context, $"{context.GetType()} got state broadcast: {intent.ToString()}", ToastLength.Long).Show();
-    //        }
-    //    }
-    //}
-
 }

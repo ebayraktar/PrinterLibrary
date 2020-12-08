@@ -1,32 +1,27 @@
 <!--<Project Sdk="Microsoft.NET.Sdk">-->
 <Project Sdk="MSBuild.Sdk.Extras">
 
-	<PropertyGroup Label="Globals">
-	  <SccProjectName>SAK</SccProjectName>
-	  <SccProvider>SAK</SccProvider>
-	  <SccAuxPath>SAK</SccAuxPath>
-	  <SccLocalPath>SAK</SccLocalPath>
-	</PropertyGroup>
-
 	<PropertyGroup>
 		<!--<TargetFramework>netstandard2.0</TargetFramework>-->
 		<TargetFrameworks>MonoAndroid60</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<Authors>Teknoliva; Emre BAYRAKTAR</Authors>
-		<Company>Teknoliva Bilişim Sistemleri</Company>
-		<Product>com.Teknoliva.PrinterLibrary</Product>
-		<Description>The Printer Library</Description>
-		<Copyright>&amp;copy; 2020 Teknoliva</Copyright>
-		<PackageLicenseExpression></PackageLicenseExpression>
-		<PackageTags>Xamarin Android</PackageTags>
+		<Authors>Emre BAYRAKTAR</Authors>
+		<Company>Emre BAYRAKTAR</Company>
+		<Product>com.Bayraktar.PrinterLibrary</Product>
+		<Description>The Printer Library For Xamarin Android</Description>
+		<Copyright>&amp;copy; 2020 Bayraktar</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Xamarin Android Printer TSC CPCL ESC</PackageTags>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
 		<NeutralLanguage>tr-TR</NeutralLanguage>
-		<PackageIcon>Teknoliva.png</PackageIcon>
+		<PackageIcon>printer.png</PackageIcon>
 		<SignAssembly>false</SignAssembly>
-		<PackageLicenseFile>License.txt</PackageLicenseFile>
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-		<ApplicationIcon>icTeknoliva.ico</ApplicationIcon>
+		<ApplicationIcon>printer.ico</ApplicationIcon>
+		<PackageId>Xamarin.Android.Library.Printer</PackageId>
+		<PackageProjectUrl>https://github.com/ebayraktar/PrinterLibrary</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ebayraktar/PrinterLibrary.git</RepositoryUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|MonoAndroid60|AnyCPU'">
@@ -39,13 +34,8 @@
 	  <PlatformTarget>x86</PlatformTarget>
 	</PropertyGroup>
 
-
 	<ItemGroup>
-	  <None Include="S:\License.txt">
-	    <Pack>True</Pack>
-	    <PackagePath></PackagePath>
-	  </None>
-	  <None Include="S:\Teknoliva.png">
+	  <None Include="printer.png">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
 	  </None>

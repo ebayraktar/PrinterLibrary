@@ -17,7 +17,7 @@ namespace PrinterLibrary.BroadcastReceivers
         /// 
         /// </summary>
         public const string ACTION_USB_PERMISSION =
-    "com.Teknoliva.PrinterLibrary.USB_PERMISSION";
+    "com.Bayraktar.PrinterLibrary.USB_PERMISSION";
         /// <summary>
         /// 
         /// </summary>

@@ -1,16 +1,5 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
-using Android.Widget;
-using BluetoothLibrary.Activities;
-using System.Threading.Tasks;
-using System.Text;
-using System;
-using PrinterLibrary;
-using PrinterLibrary.Enums;
-using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Net;
 
 namespace PrinterLibraryAndroidTest
 {
